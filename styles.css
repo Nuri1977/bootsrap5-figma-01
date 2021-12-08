@@ -28,3 +28,8 @@ ul {
 .m-flex {
   display: flex;
 }
+
+#about {
+  background-color: #fff;
+  border-top-right-radius: 25% 100px;
+}
