@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
     <title>Document</title>
   </head>
   <body class="figma1">
@@ -174,7 +175,13 @@
             <li class="px-3">css</li>
             <li class="px-3">javascript</li>
           </ul>
-          <a href="#" class="btn btn-outline-primary">See Project</a>
+          <a
+            href="#"
+            class="btn btn-outline-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal3"
+            >See Project</a
+          >
         </div>
       </div>
       <!-- Card four -->
@@ -261,14 +268,24 @@
                   alt="Javascript icon"
                   class="list-img ms-lg-2"
                 />
-                <span class="ms-2 ms-lg-0 mt-lg-2 badge bg-dark">Javascript</span>
+                <span class="ms-2 ms-lg-0 mt-lg-2 badge bg-dark"
+                  >Javascript</span
+                >
               </li>
               <li class="mb-2 p-2 me-lg-3 bg-light d-lg-flex flex-lg-column">
-                <img src="./images/html.svg" alt="HTML icon" class="list-img ms-lg-2" />
+                <img
+                  src="./images/html.svg"
+                  alt="HTML icon"
+                  class="list-img ms-lg-2"
+                />
                 <span class="ms-2 mt-lg-2 badge bg-dark">html</span>
               </li>
               <li class="mb-2 p-2 me-lg-3 bg-light d-lg-flex flex-lg-column">
-                <img src="./images/css3.svg" alt="CC3 icon" class="list-img ms-lg-2" />
+                <img
+                  src="./images/css3.svg"
+                  alt="CC3 icon"
+                  class="list-img ms-lg-2"
+                />
                 <span class="ms-2 mt-lg-2 badge bg-dark">Css</span>
               </li>
             </ul>
@@ -332,12 +349,102 @@
           </div>
           <div class="d-lg-flex justify-content-center mt-lg-4">
             <button type="submit" class="btn btn-light text-primary mb-5">
-              Get my resume
+              Get intouch
             </button>
           </div>
         </form>
       </div>
     </section>
+    <!-- Model -->
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- All Modal -->
+    <!-- MOdel 3 -->
+    <div
+      class="modal fade"
+      id="exampleModal3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tonic</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <!-- Body -->
+          <div class="modal-body">
+            <div class="container">
+              <div class="d-flex justify-content-start align-items-start">
+                <p class="m-0 p-0">CANOPY</p>
+                <ul class="d-flex my-list text-black-50 fw-bolder">
+                  <li class="pe-2">Back And Dev</li>
+                  <li class="">2015</li>
+                </ul>
+              </div>
+              <!-- img in body -->
+
+              <div class="mb-4">
+                <img src="./images/TonicImage.svg" alt="" />
+              </div>
+              <p class="lh-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essent
+              </p>
+              <ul class="mx-0 p-0 d-flex justify-content-start text-primary">
+                <li class="pe-3">html</li>
+                <li class="px-3">css</li>
+                <li class="px-3">javascript</li>
+              </ul>
+            </div>
+            <!-- Footer -->
+            <div class="modal-footer">
+              <div class="col-12 d-flex justify-content-center">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary me-3"
+                  data-bs-dismiss="modal"
+                >
+                  See live
+                  <img
+                    src="./images/eclipse.svg"
+                    alt="Eclipse Icon"
+                    class="ms-2"
+                  />
+                </button>
+                <button type="button" class="btn btn-outline-primary">
+                  See source
+                  <img
+                    src="./images/github.svg"
+                    alt="Github Icon"
+                    class="ms-2"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
