@@ -56,3 +56,8 @@ ul {
   background-position: 95%;
   border-bottom-left-radius: 25% 100px;
 }
+
+.list-img {
+  height: 45px;
+  width: 45px;
+}
