@@ -33,3 +33,11 @@ ul {
   background-color: #fff;
   border-top-right-radius: 25% 100px;
 }
+
+#contact {
+  border-top-left-radius: 25% 50px;
+}
+
+.bg-figma1 {
+  background-color: #e5e5e5;
+}
