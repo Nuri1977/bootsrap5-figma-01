@@ -9,14 +9,6 @@
   cursor: pointer;
 }
 
-html {
-  border: 2px solid red;
-}
-
-.red-b {
-  border: 2px solid red;
-}
-
 .my-list {
   gap: 20px;
 }
