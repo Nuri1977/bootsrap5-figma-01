@@ -35,9 +35,24 @@ ul {
 }
 
 #contact {
+  margin-top: -37px;
   border-top-left-radius: 25% 50px;
 }
 
-.bg-figma1 {
+.contact {
+  background-color: #6070ff;
+  background-image: url(./images/contact-form-Bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.figma1 {
   background-color: #e5e5e5;
+}
+
+.header {
+  background-image: url(./images/headerTrans.png);
+  background-repeat: no-repeat;
+  background-position: 95%;
+  border-bottom-left-radius: 25% 100px;
 }

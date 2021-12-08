@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
-  <body class="bg-figma">
-    <section class="header bg-white">
+  <body class="figma1">
+    <section class="header bg-white mb-5 pb-5">
       <nav class="navbar navbar-expand-sm navbar-light bg-white">
         <div class="container mb-5">
-          <a class="navbar-brand fw-bolder" href="#">Logo</a>
+          <a class="navbar-brand fw-bolder text-primary" href="#">Logo</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -52,8 +52,8 @@
           </div>
         </div>
       </nav>
-      <div class="container mt-5 p-5 hero">
-        <h1 class="mt-5 p-0 lh-sm">
+      <div class="container mt-2 p-5 hero">
+        <h1 class="mt-2 p-0 lh-sm">
           I’m Alexandra <br />
           Glad to see you!
         </h1>
@@ -85,9 +85,9 @@
       </div>
     </section>
     <section id="portfolio" class="container">
-      <div class="card p-2 mb-5">
+      <div class="card p-2 mb-5 py-3">
         <img src="./images/TonicImage.svg" class="card-img-top" alt="..." />
-        <div class="card-body m-0 p-0">
+        <div class="card-body m-0 p-0 py-2">
           <h5 class="card-title fw-bold fs-1 mt-3">Tonic</h5>
           <div class="d-flex justify-content-start align-items-start fs-0">
             <p class="m-0 p-0">CANOPY</p>
@@ -108,9 +108,9 @@
           <a href="#" class="btn btn-outline-primary">See Project</a>
         </div>
       </div>
-      <div class="card p-2 mb-5">
+      <div class="card p-2 mb-5 py-3">
         <img src="./images/MutiPostStory.svg" class="card-img-top" alt="..." />
-        <div class="card-body m-0 p-0">
+        <div class="card-body m-0 p-0 py-2">
           <h5 class="card-title fw-bold fs-1 mt-3">Multi-Post Stories</h5>
           <div class="d-flex justify-content-start align-items-start fs-0">
             <p class="m-0 p-0">CANOPY</p>
@@ -131,9 +131,9 @@
           <a href="#" class="btn btn-outline-primary">See Project</a>
         </div>
       </div>
-      <div class="card p-2 mb-5">
+      <div class="card p-2 mb-5 py-3">
         <img src="./images/TonicColor.svg" class="card-img-top" alt="..." />
-        <div class="card-body m-0 p-0">
+        <div class="card-body m-0 p-0 py-2">
           <h5 class="card-title fw-bold fs-1 mt-3">Tonic</h5>
           <div class="d-flex justify-content-start align-items-start fs-0">
             <p class="m-0 p-0">CANOPY</p>
@@ -154,9 +154,9 @@
           <a href="#" class="btn btn-outline-primary">See Project</a>
         </div>
       </div>
-      <div class="card p-2 mb-5">
+      <div class="card p-2 mb-5 py-3">
         <img src="./images/Multipost2.svg" class="card-img-top" alt="..." />
-        <div class="card-body m-0 p-0">
+        <div class="card-body m-0 p-0 py-2">
           <h5 class="card-title fw-bold fs-1 mt-3">Multi-Post Stories</h5>
           <div class="d-flex justify-content-start align-items-start fs-0">
             <p class="m-0 p-0">CANOPY</p>
@@ -248,21 +248,45 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="container bg-primary pt-5">
+    <section id="contact" class="container pt-5 contact">
       <h2 class="text-center text-white fs-1 fw-bold">Contact me</h2>
-      <p class="mx-auto col-11 text-white-50 fw-bolder">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-      <form class="mt-5">
+      <p class="mx-auto col-11 text-white-50 fw-bolder">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <form action="https://formspree.io/f/moqrqvny" method="POST" class="mt-5">
         <div class="mb-3">
-          <input type="text" class="form-control" id="name" placeholder="Name">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Name"
+            required
+          />
         </div>
         <div class="mb-3">
-          <input type="email" class="form-control" id="email" placeholder="Email">
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Email"
+            required
+          />
         </div>
         <div class="mb-3">
-          <textarea class="form-control" id="Textarea1" rows="5" placeholder="Your message!"></textarea>
+          <textarea
+            class="form-control"
+            id="Textarea1"
+            rows="5"
+            placeholder="Your message!"
+            required
+          ></textarea>
         </div>
         <div>
-          <button type="button" class="btn btn-light text-primary mb-5">Get my resume</button>
+          <button type="submit" class="btn btn-light text-primary mb-5">
+            Get my resume
+          </button>
         </div>
       </form>
     </section>
